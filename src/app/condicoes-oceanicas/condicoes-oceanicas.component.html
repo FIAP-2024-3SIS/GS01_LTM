@@ -1,1 +1,75 @@
-<p>condicoes-oceanicas works!</p>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceanic Data Explorer</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ocean-conditions">Ocean Conditions</a></li>
+                <li><a href="#endangered-species">Endangered Species</a></li>
+                <li><a href="#conservation-projects">Conservation Projects</a></li>
+            </ul>
+        </nav>
+        <section id="filters">
+            <label for="region">Region:</label>
+            <select id="region" name="region">
+                <option value="all">All</option>
+                <!-- Outras opções -->
+            </select>
+            <label for="species">Species:</label>
+            <select id="species" name="species">
+                <option value="all">All</option>
+                <!-- Outras opções -->
+            </select>
+            <label for="conservation-status">Conservation Status:</label>
+            <select id="conservation-status" name="conservation-status">
+                <option value="all">All</option>
+                <!-- Outras opções -->
+            </select>
+            <label for="water-temperature">Water Temperature:</label>
+            <select id="water-temperature" name="water-temperature">
+                <option value="all">All</option>
+                <!-- Outras opções -->
+            </select>
+            <label for="ph">pH:</label>
+            <select id="ph" name="ph">
+                <option value="all">All</option>
+                <!-- Outras opções -->
+            </select>
+            <label for="pollution-levels">Pollution Levels:</label>
+            <select id="pollution-levels" name="pollution-levels">
+                <option value="all">All</option>
+                <!-- Outras opções -->
+            </select>
+            <button type="submit">Search</button>
+        </section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                    <th>Column 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                    <td>Data 4</td>
+                </tr>
+                <!-- Mais dados -->
+            </tbody>
+        </table>
+        <!-- Paginação -->
+    </div>
+    <script></script>
+</body>
+</html>
